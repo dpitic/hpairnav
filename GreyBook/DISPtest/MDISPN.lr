@@ -1,0 +1,47 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=MDISPN.o
+  Start=00000 End=0006D Length=0006E   Symbols=  19 References=  19
+  Date=Sun May 24 16:07:45 2009   Title=
+
+
+Source modules:
+Module=MDISPN.o
+  Start=00000 End=0006D Length=0006E
+  Date=Sun May 24 16:07:45 2009   Title=                                        Sun May 24 16:07:45 2009
+
+Saturn Cross Reference Listing
+
+&$                               *       - 00050
+
+0LASTOWDOB!                      *       - 0000A
+
+CK0NOLASTWD                      *       - 00005
+ClrDA1IsStat                     *       - 00014
+
+DECOMP$                          *       - 0004B
+DISPN                            *       - 0005A
+DO                               *       - 00023
+DOCOL                            *       - 00000
+DOCSTR                           *       - 0002D
+
+EIGHT                            *       - 00019
+
+INDEX@                           *       - 00028
+
+LOOP                             *       - 0005F
+
+ONE                              *       - 0001E
+OVER                             *       - 00041
+
+RECLAIMDISP                      *       - 0000F
+
+SEMI                             *       - 00069
+SWAP                             *       - 00055
+SetDAsTemp                       *       - 00064
+
+UNCOERCE                         *       - 00046
+
+/SLOAD:  End of Saturn Loader Execution

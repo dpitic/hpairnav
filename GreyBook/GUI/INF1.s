@@ -1,0 +1,67 @@
+RPL 
+( C:\Documents and Settings\Dan Pitic\My Documents\Debug4x\Projects\GreyBook\GUI\INF1.s, part of the INF1.hpp project, created by <> on 15/05/2009 )
+**********************************************************************
+* DESCRIPTION:     Displays an Input Form with 3 fields
+* COMPATIBILITY:   HP48, HP50 (NOTE: Fields don't line up on HP50)
+* USAGE:     ( -> %0         [ If cancelled ] )
+*            ( -> ob % % %1  [ If accepted ] )
+*
+::
+	 AtUserStack                     ( Clear saved command name, no arguments )
+* Input Form Parameters
+* Label Specifiers ( $ #X_Position #Y_Position )
+  "EDIT FIELD:" ONE NINETEEN	         ( Label 1 )
+  "CHOOSE FIELD:" ONE TWENTYEIGHT     ( Label 2 )
+  "CHECK FIELD" EIGHT THIRTYSEVEN     ( Label 3 )
+  
+* Field Specifiers
+	 ( Field 1 - Edit field )
+	 'DROPFALSE                          ( Field message handler )
+	 FORTY SEVENTEEN                     ( #X_Position #Y_Position )
+	 79                                  ( #Field_Width )
+	 NINE                                ( #Field_Height )
+	 ONE                                 ( #Field_Type [1 = Text field] )
+	 MINUSONE                            ( Object_Types [MINUSONE = Any type] )
+	 TWO                                 ( Decompile_Object [TWO = stack appearance] )
+	 "ENTER ANY OBJECT"                  ( Help_String )
+	 MINUSONE                            ( Choose_Field_Data N/A )
+	 MINUSONE                            ( Choose_Decompile_Fmt N/A )
+	 MINUSONE                            ( Reset_Value [MINUSONE = Empty field] )
+	 MINUSONE                            ( Initial_Value [MINUSONE = Empty field] )
+	 
+	 ( Field 2 - Choose field )
+	 'DROPFALSE                          ( Field message handler )
+	 FORTYNINE TWENTYSIX                 ( #X_Position #Y_Position )
+	 FORTYNINE                           ( #Field_Width )
+	 NINE                                ( #Field_Height )
+	 TWELVE                              ( #Field_Type [12 = Choose field] )
+	 FOUR                                ( Object_Types [FOUR = ?????????] )
+	 TWO                                 ( Decompile_Object [TWO = stack appearance] )
+	 "CHOOSE A NUMBER"                   ( Help_String )
+	 { %1 %2 %3 }                        ( Choose_Field_Data )
+	 TWO                               		  ( Choose_Decompile_Fmt [TWO = stack appearance] )
+	 %1                                  ( Reset_Value )
+	 %1                                  ( Initial_Value )
+	 
+	 ( Field 3 - Check field )
+	 'DROPFALSE                          ( Field message handler )
+	 ONE THIRTYFIVE                      ( #X_Position #Y_Position )
+	 SIX                                 ( #Field_Width )
+	 NINE                                ( #Field_Height )
+	 THIRTYTWO                           ( #Field_Type [32 = Check field] )
+	 MINUSONE                            ( Object_Types N/A )
+	 MINUSONE                            ( Decompile_Object N/A )
+	 "CHECK OR UNCHECK"                  ( Help_String )
+	 MINUSONE                            ( Choose_Field_Data N/A )
+	 MINUSONE                            ( Choose_Decompile_Fmt N/A )
+	 FALSE                               ( Reset_Value )
+	 FALSE                               ( Initial_Value )
+	 
+	 THREE                               ( #LabelCount )
+	 THREE                               ( #Fieldcount )
+	 'DROPFALSE                          ( Input form message handler )
+	 "TEST"                              ( Title )
+	 DoInputForm                         ( Run the Input Form )
+	 case :: ITE %1 %0 %1 ;              ( IF OK, convert check result and return %1 )
+	 %0                                  ( ELSE return %0 )
+;

@@ -1,0 +1,65 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=INF1.o
+  Start=00000 End=00227 Length=00228   Symbols=  33 References=  68
+  Date=Fri May 15 21:06:28 2009   Title=
+
+
+Source modules:
+Module=INF1.o
+  Start=00000 End=00227 Length=00228
+  Date=Fri May 15 21:06:27 2009   Title=                                        Fri May 15 21:06:27 2009
+
+Saturn Cross Reference Listing
+
+%0                               *       - 0020F 0021E
+%1                               *       - 0014C 00165 0016A 0020A 00214
+%2                               *       - 00151
+%3                               *       - 00156
+
+'DROPFALSE                       *       - 0008C 000F7 0016F 001DF
+
+AtUserStack                      *       - 00005
+
+DOBINT                           *       - 0009B
+DOCOL                            *       - 00000 00200
+DOCSTR                           *       - 0000A 00034 00062 000B9 0011F 00197
+                                 + 001E4
+DOLIST                           *       - 00147
+DoInputForm                      *       - 001F6
+
+EIGHT                            *       - 00082
+
+FALSE                            *       - 001CB 001D0
+FORTY                            *       - 00091
+FORTYNINE                        *       - 000FC 00106
+FOUR                             *       - 00115
+
+ITE                              *       - 00205
+
+MINUSONE                         *       - 000AF 000E3 000E8 000ED 000F2 0018D
+                                 + 00192 001C1 001C6
+
+NINE                             *       - 000A5 0010B 00183
+NINETEEN                         *       - 0002F
+
+ONE                              *       - 0002A 00058 000AA 00174
+
+SEMI                             *       - 0015B 00219 00223
+SEVENTEEN                        *       - 00096
+SIX                              *       - 0017E
+
+THIRTYFIVE                       *       - 00179
+THIRTYSEVEN                      *       - 00087
+THIRTYTWO                        *       - 00188
+THREE                            *       - 001D5 001DA
+TWELVE                           *       - 00110
+TWENTYEIGHT                      *       - 0005D
+TWENTYSIX                        *       - 00101
+TWO                              *       - 000B4 0011A 00160
+
+case                             *       - 001FB
+
+/SLOAD:  End of Saturn Loader Execution

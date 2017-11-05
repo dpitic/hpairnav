@@ -1,0 +1,129 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=INF4.o
+  Start=00000 End=0044E Length=0044F   Symbols=  64 References= 137
+  Date=Sat May 16 20:29:29 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=0002C Length=0002D
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Module=_table.o
+  Start=0002D End=000B1 Length=00085
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Module=INF4.o
+  Start=000B2 End=002EA Length=00239
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Module=INF4MsgHandler.o
+  Start=002EB End=0042C Length=00142
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Module=_config.o
+  Start=0042D End=0044A Length=0001E
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Module=_end.o
+  Start=0044B End=0044E Length=00004
+  Date=Sat May 16 20:29:29 2009   Title=                                        Sat May 16 20:29:29 2009
+
+Saturn Cross Reference Listing
+
+#=case                           *       - 002F5
+
+%0                               *       - 002D2 002E1
+%1                               *       - 00204 0021D 00222 002CD 002D7
+%2                               *       - 00209
+%3                               *       - 0020E
+
+&COMP                            *       - 00405 0040A
+
+'                                *       - 00297 002FF 00361
+'DROPFALSE                       *       - 00144 001AF 00227
+
+::N                              *       - 00414
+
+AtUserStack                      *       - 000BD
+
+CONFIG                           * 0042D - 00028
+
+DOBINT                           *       - 00153 00437
+DOCOL                            *       - 000B8 002C3 002EB 002FA 00332 003A4
+                                 + 003D6 0042D
+DOCSTR                           *       - 000C2 000EC 0011A 00171 001D7 0024F
+                                 + 002A7 0031E 0033C 00390 003C8
+DOHSTR                           *       - 0002D 0009E
+DOLIB                            *       - 00000
+DOLIST                           *       - 001FF 00314 00319 0038B 003C3
+DOROMP                           *       - 0029C 00309 00366 00371 003AE 003E0
+                                 + 003FA
+DROP                             *       - 0037C
+DoInputForm                      *       - 002B9
+
+EIGHT                            *       - 0013A
+
+FALSE                            *       - 00283 00288 00423
+FIFTEEN                          *       - 002F0 00357
+FORTYNINE                        *       - 00149 001B4 001BE
+FOUR                             *       - 0016C 001D2 00218
+
+HOMEDIR                          *       - 00432
+HasH200                          * 0002D - 00019
+
+INF4MsgHandler                   * 002EB - 000AD
+ITE                              *       - 002C8
+
+LIB200                           * 00005 -
+LinK200                          * 0009E - 00023
+
+MINUSONE                         *       - 00167 0019B 001A0 001A5 001AA 001CD
+                                 + 00245 0024A 00279 0027E 0035C
+
+NINE                             *       - 0015D 001C3 0023B 00352
+NINETEEN                         *       - 000E7
+NoExitAction                     *       - 00304
+
+ONE                              *       - 000E2 00110 00162 0022C
+
+ROMID200                         = 00200 -
+RomId                            = 00200 -
+
+SEMI                             *       - 00213 002DC 002E6 00381 00386 003B9
+                                 + 003BE 003EB 003F0 003F5 0041E 00428 00446
+SEVENTEEN                        *       - 0014E
+SIX                              *       - 00236
+SYS200                           * 00016 -
+SYSEND200                        * 0044F - 00005
+
+THIRTYFIVE                       *       - 00231
+THIRTYSEVEN                      *       - 0013F
+THIRTYTWO                        *       - 00240
+THREE                            *       - 0028D 00292
+TRUE                             *       - 00419
+TWELVE                           *       - 001C8
+TWENTYEIGHT                      *       - 00115
+TWENTYSIX                        *       - 001B9
+TWO                              *       - 0040F
+TakeOver                         *       - 00337 003A9 003DB
+
+XEQSETLIB                        *       - 00441
+
+case                             *       - 002BE
+
+xINF4                            * 000B8 - 000A8
+
+~DoKeyCancel                     *       - 003B3
+~DoKeyOK                         *       - 003E5
+~DoMsgBox                        *       - 00376
+~IFMenuRow1                      *       - 0030E
+~IFMenuRow2                      *       - 003FF
+~INF4MsgHandler                  = 01200 - 002A1
+~MsgBoxMenu                      *       - 0036B
+~xINF4                           = 00200 - 000B2
+
+/SLOAD:  End of Saturn Loader Execution

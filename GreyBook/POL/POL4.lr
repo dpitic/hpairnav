@@ -1,0 +1,96 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=POL4.o
+  Start=00000 End=00440 Length=00441   Symbols=  55 References= 134
+  Date=Sun Jun 07 19:53:06 2009   Title=
+
+
+Source modules:
+Module=POL4.o
+  Start=00000 End=00440 Length=00441
+  Date=Sun Jun 07 19:53:06 2009   Title=                                        Sun Jun 07 19:53:06 2009
+
+Saturn Cross Reference Listing
+
+#/                               *       - 0039C
+#<>                              *       - 003AB
+#=casedrop                       *       - 0016B
+
+%1                               *       - 0009C 000A1
+%1+                              *       - 00233
+%1-                              *       - 001A4
+%1/                              *       - 001C9 00258
+
+&$                               *       - 00051 0008D 003ED
+
+'                                *       - 00019 000AB 000C9 000E1 000F7 00139
+                                 + 0015C 001AE 001CE 0023D 0025D 002B6 00369
+                                 + 00383
+'DoBadKeyT                       *       - 002DF 002EE
+
+0LASTOWDOB!                      *       - 00005
+
+2DROP                            *       - 002E9
+
+?CaseKeyDef                      *       - 00184 00213 002A2
+?SEMI                            *       - 00148
+
+ABND                             *       - 00432
+
+CK0NOLASTWD                      *       - 0000A
+ClrDA1IsStat                     *       - 00014
+ClrDAsOK                         *       - 00437
+
+DA3OK?                           *       - 00143
+DISPROW3                         *       - 00056 003F2
+DISPROW4                         *       - 00092 00423
+DO$EXIT                          *       - 00350
+DOBIND                           *       - 00116
+DOBINT                           *       - 00392
+DOCOL                            *       - 00000 0001E 0013E 00161 00170 00189
+                                 + 00218 002A7 0031E 00388
+DOCSTR                           *       - 00023 0005B 0030C 00328 003BF 003F7
+DOLAM                            *       - 0003B 00075 000B0 000CE 000E6 000FC
+                                 + 0011B 00193 001B3 001D3 001EB 00222 00242
+                                 + 00262 0027A 002BB 0036E 003D7
+DOLIST                           *       - 00302 00307
+DROP                             *       - 002DA
+DUP                              *       - 001A9 00238
+DUP#<7                           *       - 00175
+DispMenu.1                       *       - 0014D
+
+EDITDECOMP$                      *       - 0004C 00088 003E8
+ERRJMP                           *       - 003B5
+ERROR@                           *       - 0038D
+ERRORCLR                         *       - 003BA
+EVAL                             *       - 00134 00204 00293
+
+FALSE                            *       - 000A6
+FORTYONE                         *       - 0017F
+FORTYSEVEN                       *       - 0029D
+FORTYSIX                         *       - 0020E
+FOUR                             *       - 00111
+
+ONE                              *       - 00166
+ONEFALSE                         *       - 00364
+
+ParOuterLoop                     *       - 0042D
+
+RECLAIMDISP                      *       - 0000F
+
+SEMI                             *       - 00097 00157 00209 00298 002D5 002E4
+                                 + 002F3 00355 0035A 0035F 00428 0043C
+STO                              *       - 001C4 001E6 00253 00275 002D0
+SWAPDROP                         *       - 003A1
+SetDA3Valid                      *       - 00152
+
+THREE                            *       - 003A6
+TRUE                             *       - 002B1 002F8 002FD
+TakeOver                         *       - 0018E 0021D 002AC 00323
+
+case                             *       - 003B0
+casedrpfls                       *       - 0017A
+
+/SLOAD:  End of Saturn Loader Execution

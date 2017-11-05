@@ -1,0 +1,139 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=INFTEST.o
+  Start=00000 End=004D2 Length=004D3   Symbols=  64 References= 176
+  Date=Sat Apr 25 20:01:30 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=00032 Length=00033
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=_table.o
+  Start=00033 End=000C7 Length=00095
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=INFTSTform.o
+  Start=000C8 End=00330 Length=00269
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=INFTEST.o
+  Start=00331 End=00350 Length=00020
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=TSTHND.o
+  Start=00351 End=0038B Length=0003B
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=Field_PA_MsgHandler.o
+  Start=0038C End=004B0 Length=00125
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=_config.o
+  Start=004B1 End=004CE Length=0001E
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Module=_end.o
+  Start=004CF End=004D2 Length=00004
+  Date=Sat Apr 25 20:01:30 2009   Title=                                        Sat Apr 25 20:01:30 2009
+
+Saturn Cross Reference Listing
+
+#=case                           *       - 00198 00396
+
+'                                *       - 00101 00189
+'DROPFALSE                       *       - 0030B
+
+BINT0                            *       - 0012F 001D3 001E4 00232 00243 00295
+BINT1                            *       - 000DD 000F7 00125 0028B 003D1 003E2
+                                 + 00430 00441
+BINT110                          *       - 0011B
+BINT13                           *       - 00134 0029A
+BINT14                           *       - 00111 00277
+BINT17                           *       - 0027C
+BINT18                           *       - 000FC
+BINT2                            *       - 0013E 002A4 00301 00306
+BINT3                            *       - 001C4 00378 003C2
+BINT4                            *       - 00193 00391
+BINT45                           *       - 00281
+BINT8                            *       - 00116 00120 00286
+BINT9                            *       - 000E2
+
+CONFIG                           * 004B1 - 0002E
+
+DOBINT                           *       - 004BB
+DOCOL                            *       - 000C8 0018E 0019D 001AC 00209 00228
+                                 + 00337 00351 00360 0038C 0039B 003AA 00407
+                                 + 00426 0046B 0048E 004B1
+DOCSTR                           *       - 000CD 000E7 00143 001B1 002A9 00310
+                                 + 00365 003AF
+DOFLASHP                         *       - 001D8 001E9 00237 00248 00320 003D6
+                                 + 003E7 00435 00446
+DOHSTR                           *       - 00033 000AA
+DOIDNT                           *       - 0017E 00213 002F6 00411
+DOLIB                            *       - 00000
+DOLIST                           *       - 0012A 00290
+DOROMP                           *       - 00106 0033C
+DROP                             *       - 00347
+DUP                              *       - 0020E 0040C
+DUPTYPEEXT?                      *       - 001FF 003FD
+DUPTYPEIDNT?                     *       - 00484
+DUPTYPELIST?                     *       - 00461
+DUPTYPEREAL?                     *       - 001A2 00356 003A0
+
+EQUALNOT                         *       - 0021E 0041C
+EXTN                             *       - 001C9 0037D 003C7
+
+FALSE                            *       - 0026D 004A7
+Field_PA_MsgHandler              * 0038C - 000C3
+
+HOMEDIR                          *       - 004B6
+HasH326                          * 00033 - 0001F
+
+INCOMPDROP                       *       - 00470
+INFTSTform                       * 000C8 - 000B9
+IT                               *       - 00223 00421
+
+LIB326                           * 00005 -
+LinK326                          * 000AA - 00029
+
+MINUSONE                         *       - 0016F 00174 00179 002E7 002EC 002F1
+
+NOVAL                            *       - 001CE 0022D 003CC 0042B
+
+ROMID326                         = 00326 -
+RomId                            = 00326 -
+
+SEMI                             *       - 00139 001FA 00254 0025E 00268 00272
+                                 + 0029F 0032C 0034C 00382 00387 003F8 00452
+                                 + 0045C 0047F 00498 004A2 004AC 004CA
+SWAPDROP                         *       - 00475
+SYS326                           * 0001C -
+SYSEND326                        * 004D3 - 00005
+
+TRUE                             *       - 001F5 00259 00263 003F3 00457 0047A
+                                 + 00493 0049D
+TSTHND                           * 00351 - 000BE
+
+XEQSETLIB                        *       - 004C5
+
+^IfMain                          *       - 00325
+^IfSetField                      *       - 001EE 0024D 003EC 0044B
+^IfSetFieldValue                 *       - 001DD 0023C 003DB 0043A
+
+case                             *       - 001A7 00204 0035B 003A5 00402 00466
+                                 + 00489
+
+umEND                            *       - 001BF 00373 003BD
+
+xINFTEST                         * 00337 - 000B4
+
+~Field_PA_MsgHandler             = 03326 - 0010B
+~INFTSTform                      = 01326 - 00341
+~TSTHND                          = 02326 -
+~xINFTEST                        = 00326 - 00331
+
+/SLOAD:  End of Saturn Loader Execution

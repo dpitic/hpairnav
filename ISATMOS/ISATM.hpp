@@ -1,0 +1,44 @@
+[Main]
+library=1
+IncludeUserRPL=1
+AutoLoad=1
+Compress=0
+Calc48=0
+KeepAll=0
+UseDefaultEntryList=1
+WarnRamChanges=1
+LoadOnly=0
+EMUVisible=1
+ProjectTab=0
+InformHeight=50
+EntryPointList=
+Title=ISATM v1.22
+Config=
+ExtPrg=
+Message=
+Romid=326
+Slot=0
+Emu48Ram=C:\Documents and Settings\Dan Pitic\My Documents\Debug4x\Emu\default 48GX.e48
+Emu48Port2=C:\Program Files\Hewlett-Packard\Debug4x\Emu\\default 48GX.bin
+Emu49Ram=C:\Documents and Settings\Dan Pitic\My Documents\Debug4x\Emu\default 50G.e49
+FilePath=ISATM.hp
+DirPath=
+RPL_INCLUDE=
+SasmParams=
+LRFiles=
+[Files]
+file1=GEOPO.s
+file2=ISAT.s
+file3=ISAP.s
+file4=ISArho.s
+file5=ISAa.s
+file6=ISATM.h
+file7=ISATM_def.h
+[Edit]
+edit8=>GEOPO.s
+edit9=ISAT.s
+edit10=ISAP.s
+edit11=ISArho.s
+edit12=ISAa.s
+edit13=ISATM.h
+edit14=ISATM_def.h

@@ -1,0 +1,81 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=ROCKET.o
+  Start=00000 End=001D5 Length=001D6   Symbols=  39 References=  68
+  Date=Mon May 25 18:03:40 2009   Title=
+
+
+Source modules:
+Module=ROCKET.o
+  Start=00000 End=001D5 Length=001D6
+  Date=Mon May 25 18:03:40 2009   Title=                                        Mon May 25 18:03:40 2009
+
+Saturn Cross Reference Listing
+
+#*                               *       - 0012B
+#+                               *       - 00130 001B3
+#-                               *       - 000D6
+
+$>grob                           *       - 000E5
+
+%>                               *       - 0018B
+%RAN                             *       - 00171
+
+0LASTOWDOB!                      *       - 00005
+
+?SKIP                            *       - 00190
+
+ABUFF                            *       - 00037 0009F
+
+CK0NOLASTWD                      *       - 0000A
+ClrDA1IsStat                     *       - 0000F
+
+DO                               *       - 000C7 00167
+DOBINT                           *       - 00023 0003C 000A4 000AE 00158 0019A
+                                 + 001A4
+DOCOL                            *       - 00000 000FE 00195
+DOGROB                           *       - 0004B
+DOREAL                           *       - 00176
+DUP#0=ITE                        *       - 000F4
+
+EDITDECOMP$                      *       - 000E0
+EIGHT                            *       - 0002D
+ELEVEN                           *       - 000BD 000F9
+
+FIFTEEN                          *       - 00103
+
+GROB!                            *       - 000B8 0013A
+GROB!ZERODRP                     *       - 00032
+
+HARDBUFF2                        *       - 00019 000EA
+HEIGHTENGROB                     *       - 00046
+
+INDEX@                           *       - 000D1 000EF 001AE
+
+LOOP                             *       - 00153 001C7
+
+ONE                              *       - 00162
+
+PIXON                            *       - 001B8
+
+RECLAIMDISP                      *       - 00014 001CC
+
+SEMI                             *       - 0011C 001BD 001D1
+SWAP                             *       - 00121
+
+TEN                              *       - 000CC 00126
+TWO                              *       - 00135
+
+UNCOERCE                         *       - 000DB
+
+VERYSLOW                         *       - 00108 0010D 00112 00117 0013F 00144
+                                 + 00149 0014E 001C2
+
+WINDOWDOWN                       *       - 0016C
+
+ZERO                             *       - 000C2
+ZEROZERO                         *       - 0001E
+
+/SLOAD:  End of Saturn Loader Execution

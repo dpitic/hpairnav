@@ -1,0 +1,120 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=AVCOMN50.o
+  Start=00000 End=00832 Length=00833   Symbols=  41 References= 203
+  Date=Sat Jun 27 11:55:54 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=0003E Length=0003F
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=_table.o
+  Start=0003F End=000E6 Length=000A8
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=AVMNU.o
+  Start=000E7 End=0021D Length=00137
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=GUIAVCOMN.o
+  Start=0021E End=00680 Length=00463
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=ROACOMN.o
+  Start=00681 End=00810 Length=00190
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=_config.o
+  Start=00811 End=0082E Length=0001E
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Module=_end.o
+  Start=0082F End=00832 Length=00004
+  Date=Sat Jun 27 11:55:54 2009   Title=                                        Sat Jun 27 11:55:54 2009
+
+Saturn Cross Reference Listing
+
+'                                *       - 0029A 00322 003AA 0043C 004D2 0056A
+                                 + 005FA
+'DROPFALSE                       *       - 00233 0068B
+
+BEGIN                            *       - 0022E 00686
+
+CK0                              *       - 000F2 00229
+CONFIG                           * 00811 - 0003A
+
+DOBINT                           *       - 0081B
+DOCOL                            *       - 000ED 00111 001F5 00224 0027B 00303
+                                 + 0038B 0041D 004B3 0054B 005DB 0065E 00681
+                                 + 006FB 00740 0077F 007BA 007EE 00811
+DOCSTR                           *       - 00101 001E3 00238 0026B 002E9 00371
+                                 + 003F9 0048B 00521 005B9 00690 006C9 0071A
+                                 + 0075F 0079E
+DOHSTR                           *       - 0003F 000CE
+DOIDNT                           *       - 0012B 00140 00157 0016A 00179 00192
+                                 + 001A7 00285 0029F 002C2 0030D 00327 0034A
+                                 + 00395 003AF 003D2 00427 00441 00464 004BD
+                                 + 004D7 004FA 00555 0056F 00592 005E5 005FF
+                                 + 00622
+DOLIB                            *       - 00000
+DOLIST                           *       - 000F7 000FC 001C0 001CA 001D4 001DE
+                                 + 00261 00266 002E4 0036C 003F4 00486 0051C
+                                 + 005B4 006BF 006C4 00715 0075A 00799
+DOROMP                           *       - 00116 001FA 002B7 0033F 003C7 00459
+                                 + 004EF 00587 00617 0064E 00700 00745 00784
+                                 + 007BF 007DE
+
+EVAL                             *       - 0066D 007FD
+
+HOMEDIR                          *       - 00816
+HasH32A                          * 0003F - 0002B
+
+LIB32A                           * 00005 -
+LinK32A                          * 000CE - 00035
+
+NTHCOMPDROP                      *       - 00668 007F8
+
+ONE                              *       - 00649 007D9
+
+PATHDIR                          *       - 00280 00308 00390 00422 004B8 00550
+                                 + 005E0
+
+REPEAT                           *       - 00677 00807
+ROACOMN                          * 00681 - 000E2
+ROMID32A                         = 0032A -
+RomId                            = 0032A -
+
+SEMI                             *       - 00121 00126 001C5 001CF 001D9 00205
+                                 + 0020A 0020F 00219 002DA 002DF 00362 00367
+                                 + 003EA 003EF 0047C 00481 00512 00517 005AA
+                                 + 005AF 0063A 0063F 00644 00672 0067C 0070B
+                                 + 00710 00750 00755 0078F 00794 007CA 007CF
+                                 + 007D4 00802 0080C 0082A
+SEVENTEEN                        *       - 0025C 006BA
+STO                              *       - 002B2 0033A 003C2 00454 004EA 00582
+                                 + 00612
+SYS32A                           * 00028 -
+SYSEND32A                        * 00833 - 00005
+
+TWO                              *       - 00663 007F3
+
+WHILE                            *       - 00659 007E9
+
+XEQSETLIB                        *       - 00825
+
+xAVMNU                           * 000ED - 000D8
+xEVAL                            *       - 002D5 0035D 003E5 00477 0050D 005A5
+                                 + 00635
+xGUIAVCOMN                       * 00224 - 000DD
+xMENU                            *       - 00214
+
+~Choose                          *       - 00653 007E3
+~ROACOMN                         = 0232A - 0058C
+~xAVMNU                          = 0032A - 000E7 001FF
+~xGUIAVCOMN                      = 0132A - 0011B 0021E
+
+/SLOAD:  End of Saturn Loader Execution

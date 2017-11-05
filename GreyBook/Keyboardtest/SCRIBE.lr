@@ -1,0 +1,76 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=SCRIBE.o
+  Start=00000 End=0028B Length=0028C   Symbols=  38 References=  96
+  Date=Wed May 27 14:44:51 2009   Title=
+
+
+Source modules:
+Module=SCRIBE.o
+  Start=00000 End=0028B Length=0028C
+  Date=Wed May 27 14:44:51 2009   Title=                                        Wed May 27 14:44:51 2009
+
+Saturn Cross Reference Listing
+
+#+                               *       - 000F7 001C0
+#2+                              *       - 00115 001DE
+#2-                              *       - 00158 00221
+#=                               *       - 00106 00149 001CF 00212
+
+'                                *       - 0011F 00162 00187 001E8 0022B 00250
+
+0LASTOWDOB!                      *       - 00005
+
+ABND                             *       - 00278
+AND                              *       - 000C8
+ATTN?                            *       - 000BE
+ATTNFLGCLR                       *       - 000A0 0027D
+
+BEGIN                            *       - 000A5
+BIND                             *       - 00096
+BINT_131d                        *       - 00144
+
+CK0NOLASTWD                      *       - 0000A
+ClrDA1IsStat                     *       - 0000F
+ClrDAsOK                         *       - 00282
+
+DOCOL                            *       - 00000 000D2 00110 00153 001D9 0021C
+DOLAM                            *       - 0003C 0004B 0005A 0006B 0007C 000D7
+                                 + 000E6 00124 00167 0018C 001A0 001AF 001ED
+                                 + 00230 00255
+DOLIST                           *       - 00037
+DROPFALSE                        *       - 000B4
+DUP                              *       - 000FC 0013F 00182 001C5 00208 0024B
+
+FLUSHKEYS                        *       - 0009B
+
+GETTOUCH                         *       - 000AA
+
+IT                               *       - 0010B 0014E 001D4 00217
+ITE                              *       - 000AF
+
+MINUSONE                         *       - 00101 0015D 001CA 00226
+
+NOT                              *       - 000C3
+
+ONE                              *       - 00028 0002D 0011A 001E3
+
+PIXON                            *       - 00269
+
+RECLAIMDISP                      *       - 00014
+REPEAT                           *       - 00273
+
+SEMI                             *       - 00091 0013A 0017D 00203 00246 0026E
+                                 + 00287
+SIXTYFOUR                        *       - 0001E 0020D
+STO                              *       - 00135 00178 0019B 001FE 00241 00264
+
+THIRTYTWO                        *       - 00023
+TRUE                             *       - 00032 000B9
+TURNMENUOFF                      *       - 00019
+
+WHILE                            *       - 000CD
+
+/SLOAD:  End of Saturn Loader Execution

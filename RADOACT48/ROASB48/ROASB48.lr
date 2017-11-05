@@ -1,0 +1,196 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=ROASB48.o
+  Start=00000 End=00F71 Length=00F72   Symbols=  82 References= 452
+  Date=Tue Jun 23 18:49:36 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=0003C Length=0003D
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=_table.o
+  Start=0003D End=000EE Length=000B2
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=RASBMNU.o
+  Start=000EF End=0033D Length=0024F
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=RASBFRM.o
+  Start=0033E End=004FF Length=001C2
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=ROASAMBA.o
+  Start=00500 End=0068E Length=0018F
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=InptForm.o
+  Start=0068F End=00A6E Length=003E0
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=OutptForm.o
+  Start=00A6F End=00F4F Length=004E1
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=_config.o
+  Start=00F50 End=00F6D Length=0001E
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Module=_end.o
+  Start=00F6E End=00F71 Length=00004
+  Date=Tue Jun 23 18:49:36 2009   Title=                                        Tue Jun 23 18:49:36 2009
+
+Saturn Cross Reference Listing
+
+%*                               *       - 00644 00667
+%+                               *       - 005AE 00653 00680
+%-                               *       - 005D1 0063A
+%/                               *       - 00627 00658
+%180                             *       - 005A9
+%360                             *       - 005B8 005CC
+%>                               *       - 005BD
+
+'                                *       - 001BD 001D6 001E9 001FE 00213 0022C
+                                 + 00241 00368 00381 00398 003AB 003C2 003D7
+                                 + 0043F 00458 0046B 00480 00495 004AE 004C3
+'DROPFALSE                       *       - 00736 007B6 00820 00894 00914 00988
+                                 + 00A28 00B34 00BBE 00C4C 00CED 00D71 00DF7
+                                 + 00E79 00F07
+
+3PICK                            *       - 0064E
+
+4PICK                            *       - 00649
+
+5PICK                            *       - 00662
+
+7DROP                            *       - 004EC
+
+ABND                             *       - 00685
+
+BEGIN                            *       - 0034E
+BIND                             *       - 00557
+BINT_91d                         *       - 0098D
+
+CK0                              *       - 000FA 00349
+CONFIG                           * 00F50 - 00038
+
+DOBINT                           *       - 00C5B 00F5A
+DOCOL                            *       - 000F5 00165 002E6 00315 00344 00363
+                                 + 00500 005C7 0068F 00A6F 00F50
+DOCSTR                           *       - 00151 002D4 00305 00694 006AE 006C8
+                                 + 006E4 006FC 00718 00768 007E8 00852 008C6
+                                 + 00946 009BA 00A2D 00A74 00A8E 00AA6 00AC4
+                                 + 00AE2 00AFC 00B1A 00B66 00BF0 00C83 00D1F
+                                 + 00DA3 00E29 00EAB 00F0C
+DOHSTR                           *       - 0003D 000CC
+DOIDNT                           *       - 00104 0010F 0011A 00127 00130 0013D
+                                 + 0016A 00175 00180 0018D 00196 001A3 001C2
+                                 + 001DB 001EE 00203 00218 00231 00246 00264
+                                 + 0026F 00278 00287 00296 002A1 002B0 0036D
+                                 + 00386 0039D 003B0 003C7 003DC 003EC 003F7
+                                 + 00402 0040F 00418 00425 00444 0045D 00470
+                                 + 00485 0049A 004B3 004C8 007AB 00815 00887
+                                 + 0090B 0097B 00A0F 00BA8 00BB3 00C3A 00C43
+                                 + 00CCF 00CDE 00D53 00D62 00DE1 00DEC 00E5B
+                                 + 00E6A 00EE7 00EF2
+DOLAM                            *       - 0050A 00515 00520 0052D 00536 00543
+                                 + 0055C 00569 00576 00581 0059C 005DB 005ED
+                                 + 005F8 00613 0062C 00671
+DOLIB                            *       - 00000
+DOLIST                           *       - 000FF 0014C 002BB 002C5 002CF 00300
+                                 + 00505 00754 007D4 0083E 008B2 00932 009A6
+                                 + 00B52 00BDC 00C6F 00D0B 00D8F 00E15 00E97
+DOROMP                           *       - 001B2 002EB 0031A 00353 00434 004DC
+                                 + 0058C 00603
+DROP                             *       - 00597 0060E
+DUP                              *       - 005B3 0065D 0066C
+DoInputForm                      *       - 00A65 00F46
+
+EIGHT                            *       - 00740 007C0 00B3E 00BC8
+
+FORTYNINE                        *       - 00BCD
+FORTYTHREE                       *       - 00745 007C5 0082F 008A3 00923 00B43
+                                 + 00D80 00E88
+FOURTHREE                        *       - 006BE 006F2 0072C 00A9C 00AF2 00B2A
+
+HOMEDIR                          *       - 00F55
+HasH323                          * 0003D - 00029
+
+IT                               *       - 005C2
+InptForm                         * 0068F - 000E5
+
+LIB323                           * 00005 -
+LISTCMP                          *       - 007BB 00899 00D76 00E7E
+LinK323                          * 000CC - 00033
+
+MINUSONE                         *       - 0079C 007A1 007A6 00806 0080B 00810
+                                 + 00878 0087D 00882 008FC 00901 00906 0096C
+                                 + 00971 00976 00A00 00A05 00A0A 00B9E 00BA3
+                                 + 00C30 00C35 00CC5 00CCA 00D49 00D4E 00DD7
+                                 + 00DDC 00E51 00E56 00EDD 00EE2
+
+NINE                             *       - 0074A 007CA 00834 008A8 00928 0099C
+                                 + 00B48 00BD2 00C65 00D01 00D85 00E0B 00E8D
+NINETEEN                         *       - 006DF 006F7 0073B 00825 00919 00ABF
+NOT?SEMI                         *       - 004E7
+
+ONE                              *       - 006A4 006DA 0070E 0074F 007CF 00839
+                                 + 008AD 0092D 009A1 00A84 00ABA 00AD8 00B10
+                                 + 00B4D 00BD7 00C6A 00D06 00D8A 00E10 00E92
+OVER                             *       - 00622 0063F
+OutptForm                        * 00A6F - 000EA
+
+REPEAT                           *       - 004F6
+ROASAMBA                         * 00500 - 000E0
+ROMID323                         = 00323 -
+RomId                            = 00323 -
+
+SEMI                             *       - 0025A 0025F 002C0 002CA 002F6 002FB
+                                 + 00325 0032A 0032F 00339 004F1 004FB 00552
+                                 + 005D6 0068A 0075E 007DE 00848 008BC 0093C
+                                 + 009B0 00A6A 00B5C 00BE6 00C79 00D15 00D99
+                                 + 00E1F 00EA1 00F4B 00F69
+SEVEN                            *       - 00EFD 00F02
+SEVENTEEN                        *       - 0082A 0089E 00C56
+SEVENTYNINE                      *       - 00BC3
+SIX                              *       - 00A1E 00A23
+SIXTEEN                          *       - 00B39
+STO                              *       - 001D1 001E4 001F9 0020E 00227 0023C
+                                 + 00255 0037C 00393 003A6 003BD 003D2 003E7
+                                 + 00453 00466 0047B 00490 004A9 004BE 004D7
+SWAP                             *       - 005E8 00635
+SYS323                           * 00026 -
+SYSEND323                        * 00F72 - 00005
+
+TEN                              *       - 006A9 006C3 00A89 00AA1
+THIRTYFIVE                       *       - 00E01 00E83
+THIRTYSEVEN                      *       - 00997 00B15 00B2F 00CFC 00E06
+TWENTYEIGHT                      *       - 00713 00731 00ADD 00AF7
+TWENTYFIVE                       *       - 00C51
+TWENTYSIX                        *       - 0091E 00992 00CF7 00D7B
+TWENTYTWO                        *       - 00CF2 00DFC
+TWO                              *       - 00763 007E3 0084D 008C1 00941 009B5
+                                 + 00B61 00BEB 00C7E 00D1A 00D9E 00E24 00EA6
+
+WHILE                            *       - 0035E
+
+XEQSETLIB                        *       - 00F64
+
+ZERO                             *       - 00759 007D9 00843 008B7 00937 009AB
+                                 + 00B57 00BE1 00C74 00D10 00D94 00E1A 00E9C
+
+xMENU                            *       - 00334
+xRASBFRM                         * 00344 - 000DB
+xRASBMNU                         * 000F5 - 000D6
+
+~InptForm                        = 03323 - 00358
+~OutptForm                       = 04323 - 004E1
+~ROASAMBA                        = 02323 - 001B7 00439
+~xRASBFRM                        = 01323 - 0031F 0033E
+~xRASBMNU                        = 00323 - 000EF 002F0
+
+/SLOAD:  End of Saturn Loader Execution

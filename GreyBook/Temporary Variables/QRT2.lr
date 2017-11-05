@@ -1,0 +1,70 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=QRT2.o
+  Start=00000 End=0015E Length=0015F   Symbols=  35 References=  64
+  Date=Sat May 23 17:21:43 2009   Title=
+
+
+Source modules:
+Module=QRT2.o
+  Start=00000 End=0015E Length=0015F
+  Date=Sat May 23 17:21:43 2009   Title=                                        Sat May 23 17:21:43 2009
+
+Saturn Cross Reference Listing
+
+%*                               *       - 0003C 000A0 000AF 000B9
+%+                               *       - 0010A
+%-                               *       - 000BE 0012D
+%/                               *       - 00041
+%0                               *       - 0001E 00023
+%0<                              *       - 000C8
+%2                               *       - 00037
+%4                               *       - 000B4
+%CHS                             *       - 00100 00123
+%SQRT                            *       - 000F6
+
+'                                *       - 00028 0004B 00055 0005F 00069 00073
+                                 + 0007D
+
+0LASTOWDOB!                      *       - 00005
+
+1GETLAM                          *       - 0010F 00132
+
+2GETLAM                          *       - 00146
+2PUTLAM                          *       - 0013C
+
+3GETLAM                          *       - 00141
+3PUTLAM                          *       - 00119
+3REAL                            *       - 00014
+
+4GETLAM                          *       - 000AA
+
+5GETLAM                          *       - 00096 000FB 0011E
+
+6GETLAM                          *       - 00032 000A5
+
+ABND                             *       - 00150
+
+CK&DISPATCH1                     *       - 0000F
+CK3NOLASTWD                      *       - 0000A
+
+DOBIND                           *       - 0008C
+DOCOL                            *       - 00000 00019 0002D 00091
+DOCSTR                           *       - 000D2
+DUP                              *       - 0009B 000C3
+
+EVAL                             *       - 00114 00137
+
+NULLLAM                          *       - 00050 0005A 00064 0006E 00078 00082
+
+OVER                             *       - 00105
+
+SEMI                             *       - 00046 0014B 00155 0015A
+SIX                              *       - 00087
+SWAP                             *       - 00128
+
+casedrop                         *       - 000CD
+
+/SLOAD:  End of Saturn Loader Execution

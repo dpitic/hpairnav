@@ -1,0 +1,44 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=WKEY.o
+  Start=00000 End=00091 Length=00092   Symbols=  17 References=  20
+  Date=Wed May 27 15:01:19 2009   Title=
+
+
+Source modules:
+Module=WKEY.o
+  Start=00000 End=00091 Length=00092
+  Date=Wed May 27 15:01:19 2009   Title=                                        Wed May 27 15:01:19 2009
+
+Saturn Cross Reference Listing
+
+&$                               *       - 0004E 0007E
+
+0LASTOWDOB!                      *       - 00005
+
+CK0NOLASTWD                      *       - 0000A
+ClrDA1IsStat                     *       - 0000F
+
+DISPROW3                         *       - 00053
+DISPROW4                         *       - 00083
+DOCOL                            *       - 00000
+DOCSTR                           *       - 00028 00058
+
+EDITDECOMP$                      *       - 00049 00079
+
+RECLAIMDISP                      *       - 00014
+ROT                              *       - 00044
+
+SEMI                             *       - 0008D
+SWAP                             *       - 00074
+SetDAsTemp                       *       - 00088
+
+TURNMENUOFF                      *       - 00019
+
+UNCOERCE2                        *       - 00023
+
+WaitForKey                       *       - 0001E
+
+/SLOAD:  End of Saturn Loader Execution

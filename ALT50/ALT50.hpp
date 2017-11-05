@@ -1,0 +1,40 @@
+[Main]
+library=1
+IncludeUserRPL=1
+AutoLoad=1
+Compress=0
+Calc48=0
+KeepAll=0
+UseDefaultEntryList=1
+WarnRamChanges=1
+LoadOnly=0
+EMUVisible=1
+ProjectTab=0
+InformHeight=50
+EntryPointList=
+Title=ALT50 v1.15
+Config=
+ExtPrg=
+Message=
+Romid=327
+Slot=0
+Emu48Ram=C:\Documents and Settings\Dan Pitic\My Documents\Debug4x\Emu\default 48GX.e48
+Emu48Port2=C:\Program Files\Hewlett-Packard\Debug4x\Emu\default 48GX.bin
+Emu49Ram=C:\Documents and Settings\Dan Pitic\My Documents\Debug4x\Emu\default 50G.e49
+FilePath=ALT50.hp
+DirPath=
+RPL_INCLUDE=
+SasmParams=
+LRFiles=
+[Files]
+file1=ALTMNU.s
+file2=TRUALT.s
+file3=DENALT.s
+file4=ALTFRM.s
+file5=ALTform.s
+[Edit]
+edit6=>ALTMNU.s
+edit7=TRUALT.s
+edit8=DENALT.s
+edit9=ALTFRM.s
+edit10=ALTform.s

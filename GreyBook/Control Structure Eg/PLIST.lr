@@ -1,0 +1,63 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=PLIST.o
+  Start=00000 End=00129 Length=0012A   Symbols=  30 References=  47
+  Date=Sun May 24 09:26:49 2009   Title=
+
+
+Source modules:
+Module=PLIST.o
+  Start=00000 End=00129 Length=0012A
+  Date=Sun May 24 09:26:49 2009   Title=                                        Sun May 24 09:26:49 2009
+
+Saturn Cross Reference Listing
+
+#1+_ONE_DO                       *       - 0005A
+#>                               *       - 0004B
+
+0LASTOWDOB!                      *       - 00005
+
+CK&DISPATCH1                     *       - 0000F
+CK1NOLASTWD                      *       - 0000A
+COERCE                           *       - 00032
+ClrDA1IsStat                     *       - 0001E
+
+DISPROW1                         *       - 00079
+DISPROW2                         *       - 00098
+DISPROW3                         *       - 000BB
+DISPROW4                         *       - 000DC
+DISPROW5                         *       - 000FD
+DOCOL                            *       - 00000 00019 00064 00083 000A2 000C5
+                                 + 000E6
+DOCSTR                           *       - 00069 00088 000A7 000CA 000EB
+DOLIST                           *       - 0005F
+DUP                              *       - 00041
+DUP#0=                           *       - 00037
+
+EVAL                             *       - 00116
+
+FIVE                             *       - 00046
+
+INDEX@                           *       - 0010C
+
+LOOP                             *       - 0011B
+
+NTHCOMPDROP                      *       - 00111
+
+RECLAIMDISP                      *       - 00023
+
+SEMI                             *       - 0007E 0009D 000C0 000E1 00102 00107
+                                 + 00120 00125
+SETSIZEERR                       *       - 00055
+SetDAsTemp                       *       - 0002D
+
+TURNMENUOFF                      *       - 00028
+
+case                             *       - 00050
+caseDROP                         *       - 0003C
+
+real                             *       - 00014
+
+/SLOAD:  End of Saturn Loader Execution

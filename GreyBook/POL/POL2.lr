@@ -1,0 +1,78 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=POL2.o
+  Start=00000 End=001A3 Length=001A4   Symbols=  41 References=  73
+  Date=Sun Jun 07 19:23:09 2009   Title=
+
+
+Source modules:
+Module=POL2.o
+  Start=00000 End=001A3 Length=001A4
+  Date=Sun Jun 07 19:23:09 2009   Title=                                        Sun Jun 07 19:23:09 2009
+
+Saturn Cross Reference Listing
+
+#=casedrop                       *       - 0007E
+
+'                                *       - 00019 0003D 0006F 000AB 0016C 00186
+'DoBadKeyT                       *       - 000D4 000E3
+
+0LASTOWDOB!                      *       - 00005
+
+2DROP                            *       - 000DE
+
+?CaseKeyDef                      *       - 00097
+?DispStatus                      *       - 00065
+?SKIP                            *       - 0004C
+
+ABND                             *       - 00195
+
+Box/StdLabel                     *       - 00121
+
+CK0NOLASTWD                      *       - 0000A
+ClrDAsOK                         *       - 0019A
+ClrUserFlag                      *       - 00144
+
+DA3OK?                           *       - 00047
+DOBIND                           *       - 00038
+DOCOL                            *       - 00000 00042 00051 00074 00083 0009C
+                                 + 00101 0012B
+DOCSTR                           *       - 0010B
+DOLAM                            *       - 0001E 000B0 00171
+DOLIST                           *       - 000F7 000FC
+DROP                             *       - 000CF
+DUP#<7                           *       - 00088
+DispMenu.1                       *       - 00056
+
+ERRJMP                           *       - 0018B
+
+FALSE                            *       - 00014
+FORTYSEVEN                       *       - 00092
+
+ITE                              *       - 0013F
+
+ONE                              *       - 00033 00079 00117
+ONEFALSE                         *       - 00167
+ONEONE                           *       - 00135
+
+ParOuterLoop                     *       - 00190
+
+RECLAIMDISP                      *       - 0000F
+
+SEMI                             *       - 00060 0006A 000CA 000D9 000E8 00126
+                                 + 00158 0015D 00162 0019F
+STO                              *       - 000C5
+SetDA1Bad                        *       - 0014E
+SetDA3Bad                        *       - 00153
+SetDA3Valid                      *       - 0005B
+SetUserFlag                      *       - 00149
+
+TRUE                             *       - 000A6 000ED 000F2
+TakeOver                         *       - 000A1 00106 00130
+TestUserFlag                     *       - 0011C 0013A
+
+casedrpfls                       *       - 0008D
+
+/SLOAD:  End of Saturn Loader Execution

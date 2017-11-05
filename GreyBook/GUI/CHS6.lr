@@ -1,0 +1,116 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=CHS6.o
+  Start=00000 End=00387 Length=00388   Symbols=  53 References= 124
+  Date=Fri May 15 18:50:33 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=0002C Length=0002D
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Module=_table.o
+  Start=0002D End=000B1 Length=00085
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Module=CHS6.o
+  Start=000B2 End=00101 Length=00050
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Module=CH6MsgHandler.o
+  Start=00102 End=00365 Length=00264
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Module=_config.o
+  Start=00366 End=00383 Length=0001E
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Module=_end.o
+  Start=00384 End=00387 Length=00004
+  Date=Fri May 15 18:50:33 2009   Title=                                        Fri May 15 18:50:33 2009
+
+Saturn Cross Reference Listing
+
+#=casedrop                       *       - 0010C 0011B 00139 00157 0017B 001F1
+                                 + 00232
+
+&$                               *       - 001B6 001D8
+
+'                                *       - 000C2 0023C
+
+15GETLAM                         *       - 00143
+
+AtUserStack                      *       - 000BD
+
+CHS6MsgHandler                   * 00102 - 000AD
+COERCEFLAG                       *       - 000F8
+CONFIG                           * 00366 - 00028
+
+DOBINT                           *       - 001E7 00228 00370
+DOCOL                            *       - 000B8 00102 00120 0013E 0014D 001F6
+                                 + 00237 00241 0025F 0027E 002A3 002C8 00366
+DOCSTR                           *       - 000D2 0015C 00180 001A0 001C0 00205
+                                 + 00301 0032A
+DOHSTR                           *       - 0002D 0009E
+DOLIB                            *       - 00000
+DOLIST                           *       - 0024B 0025A 00279 002FC 00325
+DOROMP                           *       - 000C7 000ED 00269 00288 00293 002AD
+                                 + 002B8 002D2 002DD 00315 00338
+DROPFALSE                        *       - 0035C
+
+EDITDECOMP$                      *       - 0019B 00200
+
+HOMEDIR                          *       - 0036B
+HasH200                          * 0002D - 00019
+
+LENCOMP                          *       - 00148
+LIB200                           * 00005 -
+LinK200                          * 0009E - 00023
+
+NINE                             *       - 00125
+NULL{}                           *       - 000E3
+NoExitAction                     *       - 00246
+NullMenuKey                      *       - 00250 00255 002F7
+
+ONE                              *       - 000DE 000E8 00176
+
+ROMID200                         = 00200 -
+RomId                            = 00200 -
+
+SEMI                             *       - 000FD 0012F 001BB 001E2 00223 00274
+                                 + 0029E 002C3 002E8 002ED 002F2 00320 00343
+                                 + 00348 0034D 00357 00361 0037F
+SEVENTY                          *       - 00134
+SIXTYONE                         *       - 00107
+SIXTYTWO                         *       - 00116
+SWAP&$                           *       - 00219
+SYS200                           * 00016 -
+SYSEND200                        * 00388 - 00005
+
+TRUE                             *       - 0012A 001DD 0021E 00352
+TakeOver                         *       - 00264 00283 002A8 002CD
+TrueTrue                         *       - 00111
+
+UNCOERCE                         *       - 00196 001FB
+
+XEQSETLIB                        *       - 0037A
+
+ZERO                             *       - 00152
+
+xCHS6                            * 000B8 - 000A8
+
+~CHS6MsgHandler                  = 01200 - 000CC
+~Choose                          *       - 000F2
+~DoCKeyCance                     *       - 0031A
+~DoCKeyChAll                     *       - 002B2
+~DoCKeyCheck                     *       - 0028D
+~DoCKeyOK                        *       - 0033D
+~DoCKeyUnChA                     *       - 002D7
+~LEDispPromp                     *       - 00298 002BD 002E2
+~grobCheckKe                     *       - 0026E
+~xCHS6                           = 00200 - 000B2
+
+/SLOAD:  End of Saturn Loader Execution

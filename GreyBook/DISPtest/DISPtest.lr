@@ -1,0 +1,28 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=DISPtest.o
+  Start=00000 End=0001D Length=0001E   Symbols=   7 References=   6
+  Date=Tue May 12 11:53:01 2009   Title=
+
+
+Source modules:
+Module=InvStkDisplay.o
+  Start=00000 End=0001D Length=0001E
+  Date=Tue May 12 11:53:01 2009   Title=                                        Tue May 12 11:53:01 2009
+
+Saturn Cross Reference Listing
+
+DOCOL                            *       - 00000
+DROP                             *       - 0000F
+
+HARDBUFF                         *       - 00005
+
+INVGROB                          *       - 0000A
+InvStkDisplay                    * 00000 -
+
+SEMI                             *       - 00019
+SetDAsTemp                       *       - 00014
+
+/SLOAD:  End of Saturn Loader Execution

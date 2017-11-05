@@ -1,0 +1,51 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=RSTR.o
+  Start=00000 End=00077 Length=00078   Symbols=  19 References=  24
+  Date=Sun May 24 10:10:02 2009   Title=
+
+
+Source modules:
+Module=RSTR.o
+  Start=00000 End=00077 Length=00078
+  Date=Sun May 24 10:10:02 2009   Title=                                        Sun May 24 10:10:02 2009
+
+Saturn Cross Reference Listing
+
+%0                               *       - 00023
+%1+                              *       - 0005F
+
+0LASTOWDOB!                      *       - 00005
+
+>R                               *       - 0001E
+
+?SKIP                            *       - 00041
+
+BEGIN                            *       - 00028
+
+CK&DISPATCH1                     *       - 0000F
+CK1NOLASTWD                      *       - 0000A
+
+DOCOL                            *       - 00000 00019 00050
+DUP                              *       - 00037
+
+IT                               *       - 0005A
+
+NOT                              *       - 0003C
+
+REPEAT                           *       - 00069
+RSWAP                            *       - 0002D 00046
+
+SEMI                             *       - 00064 0006E 00073
+
+TYPEREAL?                        *       - 00055
+
+WHILE                            *       - 0004B
+
+list                             *       - 00014
+
+ticR                             *       - 00032
+
+/SLOAD:  End of Saturn Loader Execution

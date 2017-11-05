@@ -1,0 +1,136 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=CHS5.o
+  Start=00000 End=0034C Length=0034D   Symbols=  68 References= 120
+  Date=Fri May 15 11:16:14 2009   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=0002C Length=0002D
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Module=_table.o
+  Start=0002D End=000B1 Length=00085
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Module=CHS5.o
+  Start=000B2 End=00176 Length=000C5
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Module=CHS5MsgHndler.o
+  Start=00177 End=0032A Length=001B4
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Module=_config.o
+  Start=0032B End=00348 Length=0001E
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Module=_end.o
+  Start=00349 End=0034C Length=00004
+  Date=Fri May 15 11:16:14 2009   Title=                                        Fri May 15 11:16:14 2009
+
+Saturn Cross Reference Listing
+
+#1+                              *       - 000EA
+#=casedrop                       *       - 00181 001A4 00303
+
+'                                *       - 0011C 001AE
+
+0LASTOWDOB!                      *       - 000BD
+
+18GETLAM                         *       - 00208 00267
+19GETLAM                         *       - 00203 0026C 0030D
+19PUTLAM                         *       - 00276
+
+4ROLL                            *       - 00153
+
+<DelKey                          *       - 00235
+<SkipKey                         *       - 0022B
+
+>DelKey                          *       - 0023A
+>SkipKey                         *       - 00230
+
+?SKIP                            *       - 0010D
+
+BINT_96d                         *       - 002FE
+
+CHS5MsgHndler                    * 00177 - 000AD
+CK&DISPATCH1                     *       - 000C7
+CK1NOLASTWD                      *       - 000C2
+COERCEFLAG                       *       - 00168
+CONFIG                           * 0032B - 00028
+ClrDAsOK                         *       - 00280
+
+DO                               *       - 000F4
+DOBINT                           *       - 0019A 00335
+DOCOL                            *       - 000B8 000D1 00177 00186 001A9 001B3
+                                 + 001D9 00262 00308 0032B
+DOCSTR                           *       - 0012C 001C7 001E3 002A3 002CC
+DOHSTR                           *       - 0002D 0009E
+DOLIB                            *       - 00000
+DOLIST                           *       - 001BD 001C2 00226 0029E 002C7
+DOROMP                           *       - 00121 0015D 002B7 002DA
+DROPFALSE                        *       - 00321
+DUP                              *       - 000F9
+DUP#0=                           *       - 000DB
+DUPLENCOMP                       *       - 000D6
+
+FALSE                            *       - 0024E
+
+HOMEDIR                          *       - 00330
+HasH200                          * 0002D - 00019
+
+INDEX@                           *       - 000FE
+IT                               *       - 0025D
+InputLine                        *       - 00258
+
+LIB200                           * 00005 -
+LOOP                             *       - 00117
+LinK200                          * 0009E - 00023
+
+NTHCOMPDROP                      *       - 00103 0020D
+NoExitAction                     *       - 001B8
+NullMenuKey                      *       - 0028F 00294 00299
+
+ONE                              *       - 000EF 0014E 00158 00217 0021C 00221
+                                 + 00249
+
+PUTLIST                          *       - 00271
+
+ROMID200                         = 00200 -
+RomId                            = 00200 -
+
+SEMI                             *       - 0016D 00172 00195 00244 0027B 00285
+                                 + 0028A 002C2 002E5 002EA 002EF 002F9 0031C
+                                 + 00326 00344
+SETSIZEERR                       *       - 000E5
+SETTYPEERR                       *       - 00112
+SIXTY                            *       - 0017C
+SYS200                           * 00016 -
+SYSEND200                        * 0034D - 00005
+
+TRUE                             *       - 0018B 00190 002F4 00312 00317
+TYPECSTR?                        *       - 00108
+TakeOver                         *       - 001DE
+TogInsertKey                     *       - 0023F
+
+XEQSETLIB                        *       - 0033F
+
+ZERO                             *       - 00212 00253
+
+case                             *       - 000E0
+
+list                             *       - 000CC
+
+xCHS5                            * 000B8 - 000A8
+
+~CHS5MsgHndler                   = 01200 - 00126
+~Choose                          *       - 00162
+~DoCKeyCance                     *       - 002BC
+~DoCKeyOK                        *       - 002DF
+~xCHS5                           = 00200 - 000B2
+
+/SLOAD:  End of Saturn Loader Execution

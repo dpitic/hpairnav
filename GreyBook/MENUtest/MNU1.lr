@@ -1,0 +1,36 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=MNU1.o
+  Start=00000 End=0008D Length=0008E   Symbols=  13 References=  24
+  Date=Fri Jun 19 19:37:31 2009   Title=
+
+
+Source modules:
+Module=MNU1.o
+  Start=00000 End=0008D Length=0008E
+  Date=Fri Jun 19 19:37:31 2009   Title=                                        Fri Jun 19 19:37:31 2009
+
+Saturn Cross Reference Listing
+
+'                                *       - 0000F 00034 0003E
+
+DOCOL                            *       - 00000 0000A 00014 00039
+DOCSTR                           *       - 00019 00051
+DOIDNT                           *       - 00043 00076
+DOLIST                           *       - 00071
+
+InitMenu                         *       - 00084
+
+LabelDef!                        *       - 0002F
+
+MakeInvLabel                     *       - 00025
+MakeStdLabel                     *       - 0005D
+MenuKeyNS!                       *       - 00067
+MenuMaker                        *       - 00005
+
+SEMI                             *       - 0002A 00062 0006C 0007F 00089
+STO                              *       - 0004C
+
+/SLOAD:  End of Saturn Loader Execution

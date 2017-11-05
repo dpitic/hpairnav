@@ -1,0 +1,50 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=CHS2.o
+  Start=00000 End=000DB Length=000DC   Symbols=  21 References=  32
+  Date=Thu May 14 18:02:57 2009   Title=
+
+
+Source modules:
+Module=CHS2.o
+  Start=00000 End=000DB Length=000DC
+  Date=Thu May 14 18:02:57 2009   Title=                                        Thu May 14 18:02:57 2009
+
+Saturn Cross Reference Listing
+
+#=casedrop                       *       - 00019 00028 0004B
+
+'                                *       - 0000A
+
+AtUserStack                      *       - 00005
+
+COERCEFLAG                       *       - 000D2
+
+DOBINT                           *       - 00041
+DOCOL                            *       - 00000 0000F 0002D 00050
+DOCSTR                           *       - 0005F 0008C
+DOROMP                           *       - 000C7
+DROPFALSE                        *       - 00082
+
+EDITDECOMP$                      *       - 0005A
+
+NINE                             *       - 00032
+NULL{}                           *       - 000BD
+
+ONE                              *       - 000B8 000C2
+
+SEMI                             *       - 0003C 0007D 00087 000D7
+SIXTYONE                         *       - 00014
+SIXTYTWO                         *       - 00023
+SWAP&$                           *       - 00073
+
+TRUE                             *       - 00037 00078
+TrueTrue                         *       - 0001E
+
+UNCOERCE                         *       - 00055
+
+~Choose                          *       - 000CC
+
+/SLOAD:  End of Saturn Loader Execution

@@ -1,0 +1,38 @@
+Saturn Loader, Ver. version 3.0.8, 12/07/02
+
+
+Output Module:
+Module=CASE4.o
+  Start=00000 End=0004F Length=00050   Symbols=  13 References=  16
+  Date=Sat May 23 14:23:48 2009   Title=
+
+
+Source modules:
+Module=CASE4.o
+  Start=00000 End=0004F Length=00050
+  Date=Sat May 23 14:23:48 2009   Title=                                        Sat May 23 14:23:48 2009
+
+Saturn Cross Reference Listing
+
+#>                               *       - 00037
+
+0LASTOWDOB!                      *       - 00005
+
+CK&DISPATCH1                     *       - 0000F
+CK1NOLASTWD                      *       - 0000A
+COERCE                           *       - 0001E
+
+DOCOL                            *       - 00000 00019
+DUP                              *       - 0002D
+DUP#0=                           *       - 00023
+
+FOUR                             *       - 00032
+
+SEMI                             *       - 00046 0004B
+SetUserFlag                      *       - 00041
+
+caseDROP                         *       - 00028 0003C
+
+real                             *       - 00014
+
+/SLOAD:  End of Saturn Loader Execution
